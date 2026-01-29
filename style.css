@@ -1,0 +1,56 @@
+/* Reset simple */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typo et fond global */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'lobster', 'cursive', 'Open Sans', sans-serif;
+  background-color: #20813a;
+  color: #b50d0d;
+}
+
+/* Container principal (optionnel) */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/*responsive design */
+@media screen and (max-width: 460px) { /* Mobile */
+  main {
+    padding: 1rem;
+  }
+}
+
+/* Classe utilitaire pour centrer avec flexbox */
+.flex-center {
+  display: flex; /* Utilisation de Flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+}
+
+/* Titres */
+ .navbar-brand, a{
+  font-weight: 700; /* Gras */
+  font-size: auto; /* Taille de la police */
+  font-family: lobster, 'cursive', 'Open Sans', sans-serif;
+}
+
+/* Paragraphes */
+a {
+  color: inherit;
+  text-decoration: none; /
+}
+
+/* Effet au survol des liens */
+a:hover {
+  text-decoration: underline;
+}
