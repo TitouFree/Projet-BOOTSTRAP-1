@@ -11,7 +11,6 @@ html {
   font-weight: 700; /* Gras */
   font-size: auto; /* Taille de la police */
   font-family: lobster, 'cursive', 'Open Sans', sans-serif;
-  
 }
 
 .navbar-brand {
@@ -20,11 +19,11 @@ html {
 }
 
 .navbar.navbar-expand-lg.bg-body-tertiary{
-  border-radius: 10px;
-
+  border-radius: 10px 10px 0px 0px;
+  background-color: #009A44!important;
 }
 
-.navbar.navbar-expand-lg.bg-body-tertiary.navbar-brand; a{
+.navbar.navbar-expand-lg.bg-body-tertiary.navbar-brand a{
   color: #009A44
 }
 
