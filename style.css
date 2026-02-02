@@ -9,7 +9,6 @@ html {
 /* Titres */
  .navbar-brand, a{
   font-weight: 700; /* Gras */
-  font-size: auto; /* Taille de la police */
   font-family: lobster, 'cursive', 'Open Sans', sans-serif;
 }
 
@@ -53,8 +52,8 @@ article {
   text-align: center;
   font-family: lobster, 'cursive', 'Open Sans', sans-serif;
   color: #009A44;
-  text-shadow: white px 0pxz 10px;
-  transform: translate(-40%, -60%)
+ text-shadow: 0 0 10px #fff;
+ transform: translate(-40%, -60%);
 }
 
 
